@@ -20,3 +20,14 @@ Inference took 287.790s for 1034.880s audio file.
 
 Example Video used to extract audio:   https://www.youtube.com/watch?v=Q4dSGPvqXSA&t=0s&index=17&list=PL-7XqvSmQqfTSihuoIP_ZAnN7mFIHkZ_e
 
+
+Setup
+
+git clone https://github.com/mozilla/DeepSpeech
+(Copy these shell and python scripts to that root directory)
+pip3 install --upgrade deepspeech
+Get the pretrained model 
+wget -O - https://github.com/mozilla/DeepSpeech/releases/download/v0.3.0/deepspeech-0.3.0-models.tar.gz | tar xvfz -
+
+I recommend Python 3.6.
+
